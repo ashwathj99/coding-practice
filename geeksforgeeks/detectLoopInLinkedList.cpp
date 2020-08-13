@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 bool detectLoop(Node* head)
 {
     unordered_set<Node*> s; 
